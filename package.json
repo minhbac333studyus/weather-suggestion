@@ -1,0 +1,21 @@
+{
+  "name": "weather-suggestion-app",
+  "version": "1.0.0",
+  "description": "Help User choose clothe and assessories before going out ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1598.0",
+    "express": "^4.19.2",
+    "geo-tz": "^8.0.2",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.16"
+  }
+}
